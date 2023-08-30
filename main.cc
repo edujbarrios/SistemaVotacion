@@ -28,9 +28,10 @@ private:
 class SistemaVotacion {
 public:
     SistemaVotacion() {
-        candidatos.emplace_back("Alice");
-        candidatos.emplace_back("Bob");
-        candidatos.emplace_back("Charlie");
+        candidatos.emplace_back("Pedro Sanchez");
+        candidatos.emplace_back("Alberto Nuñez Feijoo");
+        candidatos.emplace_back("Yolanda Diaz");
+        candidatos.emplace_back("Santiago Abascal");
     }
 
     void ejecutar() {
